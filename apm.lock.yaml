@@ -1,0 +1,117 @@
+lockfile_version: '1'
+generated_at: '2026-05-21T16:12:24.029711+00:00'
+apm_version: 0.13.0
+dependencies:
+- repo_url: javiarmesto/APM-ALDC
+  host: github.com
+  resolved_commit: 0eb3a4a670e92f6eb2c338ca526a4c4a3ad95d9e
+  package_type: marketplace_plugin
+  deployed_files:
+  - .agents/skills/bc-agent-instructions-debugger
+  - .agents/skills/bc-al-bug-fix
+  - .agents/skills/bc-al-code-reviewer
+  - .agents/skills/bc-al-project-context
+  - .agents/skills/bc-attachments-generator
+  - .agents/skills/bc-business-events-generator
+  - .agents/skills/bc-dataverse-entity-generator
+  - .agents/skills/bc-dataverse-mapping-generator
+  - .agents/skills/bc-install-codeunit-generator
+  - .agents/skills/bc-manifest-handoff-generator
+  - .agents/skills/bc-number-series-generator
+  - .agents/skills/bc-setup-wizard-generator
+  - .agents/skills/bc-telemetry-generator
+  - .agents/skills/onprem-remote-deploy
+  - .agents/skills/skill-agent-instructions
+  - .agents/skills/skill-agent-task-patterns
+  - .agents/skills/skill-agent-toolkit
+  - .agents/skills/skill-api
+  - .agents/skills/skill-contribution-assistant
+  - .agents/skills/skill-copilot
+  - .agents/skills/skill-debug
+  - .agents/skills/skill-estimation
+  - .agents/skills/skill-events
+  - .agents/skills/skill-manifest
+  - .agents/skills/skill-migrate
+  - .agents/skills/skill-pages
+  - .agents/skills/skill-performance
+  - .agents/skills/skill-permissions
+  - .agents/skills/skill-testing
+  - .agents/skills/skill-translate
+  - .github/agents/al-agent-builder.agent.md
+  - .github/agents/al-architect.agent.md
+  - .github/agents/al-conductor.agent.md
+  - .github/agents/al-developer.agent.md
+  - .github/agents/al-implement-subagent.agent.md
+  - .github/agents/al-planning-subagent.agent.md
+  - .github/agents/al-presales.agent.md
+  - .github/agents/al-review-subagent.agent.md
+  - .github/agents/index.agent.md
+  - .github/instructions/al-agent-toolkit.instructions.md
+  - .github/instructions/al-code-style.instructions.md
+  - .github/instructions/al-error-handling.instructions.md
+  - .github/instructions/al-events.instructions.md
+  - .github/instructions/al-guidelines.instructions.md
+  - .github/instructions/al-naming-conventions.instructions.md
+  - .github/instructions/al-performance.instructions.md
+  - .github/instructions/al-testing.instructions.md
+  - .github/prompts/al-agent.build-instructions.prompt.md
+  - .github/prompts/al-agent.create.prompt.md
+  - .github/prompts/al-agent.task.prompt.md
+  - .github/prompts/al-agent.test.prompt.md
+  - .github/prompts/al-build.prompt.md
+  - .github/prompts/al-context.create.prompt.md
+  - .github/prompts/al-initialize.prompt.md
+  - .github/prompts/al-memory.create.prompt.md
+  - .github/prompts/al-pr-prepare.prompt.md
+  - .github/prompts/al-spec.create.prompt.md
+  deployed_file_hashes:
+    .github/agents/al-agent-builder.agent.md: sha256:31f667bd7846204cfb921ff40bb0f084ae6bb6446fbc66c471f5c242ac604d35
+    .github/agents/al-architect.agent.md: sha256:68eb14988bb73dc4501fbfc56461c662564e805c2a3fe61ee1b61dc0f733e331
+    .github/agents/al-conductor.agent.md: sha256:201922ceef277db0ab9b33776747db859940e4177e21651866e6903ec13ff728
+    .github/agents/al-developer.agent.md: sha256:454318af2715225d340b80d914a03ea073812994cf24f735096a69c089a3597b
+    .github/agents/al-implement-subagent.agent.md: sha256:ddec877163b31c9c28a00a534800a9e41009beca7780345619adaf3ab58ec245
+    .github/agents/al-planning-subagent.agent.md: sha256:5387746dbe4433ab123ac3bd6ae40e784463f5f55c04b727652c3e9f8b2b95f3
+    .github/agents/al-presales.agent.md: sha256:266e4ed7a8bebfd4ffa1d2ed527510df59e1ffc19b747b84f65a038568947d9c
+    .github/agents/al-review-subagent.agent.md: sha256:0150f91229623f9a3ad34564786bb71d395b1a34f2b2c4b5b096ee243fee4dee
+    .github/agents/index.agent.md: sha256:67dd9b53639226d4f35c56f0b68e6dea54e304e8be875ca3bb4e27e5d7d41c8a
+    .github/instructions/al-agent-toolkit.instructions.md: sha256:d9aab62106b7f24b198bcbe4c960e1eaedf6353cfffa26afdabaa6564e01f21b
+    .github/instructions/al-code-style.instructions.md: sha256:a4134988a9b7b0fc5c9f7e7718912193a8971f174c175c9cb4c6f213e6da9d19
+    .github/instructions/al-error-handling.instructions.md: sha256:2365a58164e445c9e5d3ed19ee6b47b2fe287400c82269c8c93c9a4036fd4423
+    .github/instructions/al-events.instructions.md: sha256:047917184d5e469790048fb33c7ed202d4bc72916df7d3457a24465f9b124745
+    .github/instructions/al-guidelines.instructions.md: sha256:ad5b7cf116da7f3bbfb89efe8ee6a883064516b8add12a04c6509b05bb27c540
+    .github/instructions/al-naming-conventions.instructions.md: sha256:b57bdb874f762582838d14c52e68cfab99ed194eb577f8d87141824d56654148
+    .github/instructions/al-performance.instructions.md: sha256:08afc4f932797524cbf0589661dd5bb329b086bc9ed02bf6415b3d955410c452
+    .github/instructions/al-testing.instructions.md: sha256:17f3029dd0ce204591d820db83d4abd3023d54875a303bf9cf6428a1b5901213
+    .github/prompts/al-agent.build-instructions.prompt.md: sha256:a555138311922c4e2e585927e5cd1eb80046036f73cb158ea44cf1311efd9ac2
+    .github/prompts/al-agent.create.prompt.md: sha256:21793449c47499383fab82e0b4a4d4b019b0ea7cefb3c5d5f9da1384ce6d4325
+    .github/prompts/al-agent.task.prompt.md: sha256:7588975822062326d94766fc473dacdbda5075e7f8204512f97a6cd40cff22cb
+    .github/prompts/al-agent.test.prompt.md: sha256:13002c31ba29e287ab14eb4e9cfe96b41ddbc708e58090d215c7255c2cbdbf71
+    .github/prompts/al-build.prompt.md: sha256:ffaefb25f9ee9d2e00360778338d6c4bb662de0a2982ba1221459977f94146e0
+    .github/prompts/al-context.create.prompt.md: sha256:8ceb8a79242abc1793edc3a6e2c9c2b0c254e1eeac4b0913e47261b8fadf0b0e
+    .github/prompts/al-initialize.prompt.md: sha256:74048a2fb811ab61605eb84c19c1debc4a59d62d6de1218e66964124bf03a6f0
+    .github/prompts/al-memory.create.prompt.md: sha256:31b5cb33e54565872611acb6cb0b1cab9f2011f82a82fb695dac8148a068e0ff
+    .github/prompts/al-pr-prepare.prompt.md: sha256:137bcdf60b053d7c5cab9660629e7e4bf6ab0c2c7985ac7e56cc42d8ff99fbf3
+    .github/prompts/al-spec.create.prompt.md: sha256:72c7869b8dc89cd9d3e1164aa898af6994bdaa88390b5f9c04675ad1176f6db7
+  content_hash: sha256:cc8ede1684976f474adcf1d337a64a5224081281d791b514b6867bd893d2725b
+mcp_servers:
+- github-mcp-server
+- markitdown-mcp
+- microsoftdocs-mcp
+mcp_configs:
+  github-mcp-server:
+    name: github-mcp-server
+    transport: http
+    registry: false
+    url: https://api.githubcopilot.com/mcp/
+  markitdown-mcp:
+    name: markitdown-mcp
+    transport: stdio
+    args:
+    - markitdown-mcp@0.0.1a4
+    registry: false
+    command: uvx
+  microsoftdocs-mcp:
+    name: microsoftdocs-mcp
+    transport: http
+    registry: false
+    url: https://learn.microsoft.com/api/mcp
