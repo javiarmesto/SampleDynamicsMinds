@@ -1,10 +1,10 @@
 # SampleDynamicsMinds · BizzApps4all
 
-Ejemplo mínimo AL: la pageextension **50200 CustomerListExt** amplía **Customer List** y muestra `App published: Hello world` al abrirla. El código está en [HelloWorld.al](../HelloWorld.al).
+Ejemplo mínimo AL: la pageextension **50200 CustomerListExt** amplía **Customer List** y muestra `App published: Hello world` al abrirla. El código está en [HelloWorld.al](HelloWorld.al).
 
 ## Requisitos y estado
 
-[app.json](../app.json) declara BizzApps4all 1.0.0.0, application **28.0.0.0**, runtime **17.0** y rango 50200–50249. Necesitas VS Code con AL Language y un sandbox compatible, con permiso para publicar extensiones. Es una demostración para DynamicsMinds; no es la distribución de ALDC. Las carpetas `.github/` y `.agents/` conservan material de desarrollo asistido.
+[app.json](app.json) declara BizzApps4all 1.0.0.0, application **28.0.0.0**, runtime **17.0** y rango 50200–50249. Necesitas VS Code con AL Language y un sandbox compatible, con permiso para publicar extensiones. Es una demostración para DynamicsMinds; no es la distribución de ALDC. Las carpetas `.github/` y `.agents/` conservan material de desarrollo asistido.
 
 ## Inicio rápido
 
